@@ -50,3 +50,15 @@ footer p{
         display: none;
     }
   }
+
+@media (min-width:992px) { 
+    .footer_wrapper{
+        display: none;
+    }
+ }
+
+@media (min-width:1366px) {
+    .footer_wrapper{
+        display:block;
+    }
+ }
