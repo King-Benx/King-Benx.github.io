@@ -1,23 +1,32 @@
-# King-Benx.github.io
+# WeConnect
 ## DESCRIPTION
 WeConnect provides a platform that brings businesses and individuals together. This platform 
 creates awareness for businesses and gives the users the ability to write reviews about the 
 businesses they have interacted with.
 
-## HOW TO NAVIGATE THE SITE
-This is a concept of what the application will look like, to view the different pages use the following page names
-* Page names
-* 404.html
-* 500.html
-* create_business.html
-* edit_business.html
-* login.html
-* reviews.html
-* search.html
-* view_all_businesses.html
-* your_business.html
+## FEATURES THAT THE APPLICATION ENCOMPASSES
+1. An API
+2. A WEB APPLICATION
+
+## FlOW OF WEB APPLICATION
+![wireframe](https://github.com/King-Benx/WeConnect/blob/feature-api/designs/wireframes/wireframes.png)
+
+## LINK TO WeConnect on Github Pages
+### [WeConnect](https://king-benx.github.io/)
+
 ## BUILT WITH
 * Bootstrap 3 - The Web framework used
-
+* Jquery - JavaScript Library used
+* Flask - Python Framework used
+## RUNNING THE APPLICATION
+1. A file that contains all necessary extensions exists within the app, to get all dependencies run the following command
+> **pip3 install -r requirements.txt**
+2. Configurations are handled by the **config.py** file and any environmental variables should occur in this file.
+3. To launch the application run the following command in your terminal
+> **python manage.py runserver**
+4. To launch the shell run the following command in your terminal
+> **python manage.py shell**
+5. To run tests on the application, run the following command in your terminal
+> **python manage.py run_test**
 ## Author
 Asiimwe Benard
